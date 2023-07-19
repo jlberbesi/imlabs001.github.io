@@ -5,6 +5,7 @@ Requires at least: 5.9
 Tested up to: 6.2
 Requires PHP: 7.0
 Stable tag: 3.14.1
+Beta tag: 3.15.0-beta3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -152,7 +153,7 @@ There is also a managed security [Bug Bounty program](https://go.elementor.com/w
 
 = We recommend your host supports: =
 
-* PHP version 7.0 or greater
+* PHP version 7.3 or greater
 * MySQL version 5.6 or greater
 * WordPress Memory limit of 64 MB or greater (128 MB or higher is preferred)
 
