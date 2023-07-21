@@ -4,7 +4,7 @@ Tags: HTML, static website generator, static site, secure, fast
 Requires at least: 5.4
 Tested up to: 6.2
 Requires PHP: 7.4
-Stable tag: 3.0
+Stable tag: 3.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,7 +76,7 @@ The pro version of Simply Static enhances the plugin with various features.
 
 = GitHub Integration =
 
-With the GitHub integration, you can completely automate your entire development process. 
+With the GitHub integration, you can completely automate your entire development process.
 
 The only thing you need is a GitHub account, no knowledge of Git or GitHub itself is required, as Simply Static Pro handles the entire process for you and keeps your repository up to date.
 
@@ -227,6 +227,11 @@ Simply Static creates a static copy of your WordPress site that is intended to b
 3. Diagnostics
 
 == Changelog ==
+
+= 3.0.1 =
+
+* prevent error on merge excludes if not an array
+* bust object cache after migration
 
 = 3.0 =
 
